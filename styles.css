@@ -13,6 +13,13 @@
     align-items: center;
     background-color: #1e1e1e;
 }
+.card{
+    width: 320px;
+    height: 380px;
+    background-color: #FEFFE2;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+}
 .card__img{
     position: absolute;
     width: 200px;
