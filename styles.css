@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,9 +21,35 @@
     border-radius: 1rem;
     padding: 4rem 2rem 0;
 }
+.card__title{
+    font-size: 1.5rem;
+    color: #002366;
+    margin-bottom: .4rem;
+    margin-top: 2rem;
+}
 .card__img{
     position: absolute;
     width: 200px;
-    filter: drop-shadow(5px 1-px 15px rgba(8,9,13,2));
     transform: translate(.2rem, -8.5rem);
+
+}
+
+.card__price{
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.card__description{
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+.card__button{
+    display: block;
+    width: max-content;
+    padding: 1rem;
+    background-color: #002366;
+    color: #fff;
+    border-radius: 1rem;
+    font-weight: 600;
 }
